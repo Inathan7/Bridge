@@ -28,4 +28,10 @@ public class FogueteAEB extends FogueteBridge {
 
 	}
 
+	@Override
+	public void mudarTrajetoria(double angulo) {
+		System.out.println("Foguete AEB mudou de trajetória: " + angulo);
+		
+	}
+
 }

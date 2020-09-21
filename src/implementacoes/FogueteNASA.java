@@ -27,4 +27,14 @@ public class FogueteNASA extends FogueteBridge {
 
 	}
 
+	@Override
+	public void mudarTrajetoria(double angulo) {
+		System.out.println("NASA spaceship changed trajectory: " + angulo);
+		
+	}
+	
+	public void aterissar() {
+		System.out.println("NASA spaceship landed");
+	}
+
 }

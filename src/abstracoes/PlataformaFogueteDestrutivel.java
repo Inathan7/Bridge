@@ -9,13 +9,13 @@ public class PlataformaFogueteDestrutivel extends PlataformaFoguete {
 	}
 
 	/**
-	 * TODO BRIDGE.04
+	 * TODO BRIDGE.04  //Feito
 	 * 
 	 * 1. Implemente este metodo desta classe de abstracao de uso de um tipo Foguete 
 	 * (ver nota UML associada a este metodo no diagrama).
 	 * 	
 	 */
 	public void simularDestruicao() {
-
+		foguete.autoDestruir();
 	}
 }

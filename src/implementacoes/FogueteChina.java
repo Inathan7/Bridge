@@ -6,7 +6,7 @@ public class FogueteChina extends FogueteBridge {
 		
 	@Override
 	public void autoDestruir() {
-		System.out.println("中国火箭被摧毁");
+		System.out.println("中国火箭毁了");
 		this.destruido = true;
 	}
 
@@ -25,6 +25,12 @@ public class FogueteChina extends FogueteBridge {
 	@Override
 	public void decolar() {
 		System.out.println("中国火箭起飞");
+	}
+
+	@Override
+	public void mudarTrajetoria(double angulo) {
+		System.out.println("中国火箭的变化轨迹：" + angulo);
+		
 	}
 
 }
