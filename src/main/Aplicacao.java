@@ -13,17 +13,17 @@ public class Aplicacao {
 	public static void main(String[] args) {
 
 		/** 
-		 * TODO BRIDGE.05
+		 * TODO BRIDGE.05//Feito
 		 * 1. Comente a chamada dos demais metodos anteriores/posteriores a este.
 		 * 2. Descomente este para executar ele e analisar em separado.
 		 */
 		
-		//usandoAbstracaoDefaultPlataformaFogueteComVariasImplementacoesFoguete();
+        //usandoAbstracaoDefaultPlataformaFogueteComVariasImplementacoesFoguete();
 		
 		
 		
 		/** 
-		 * TODO BRIDGE.06
+		 * TODO BRIDGE.06//Feito
 		 * 1. Comente a chamada dos demais metodos anteriores/posteriores a este.
 		 * 2. Descomente este para executar ele e analisar em separado.
 		 */
@@ -33,7 +33,7 @@ public class Aplicacao {
 		
 		
 		/** 
-		 * TODO BRIDGE.06
+		 * TODO BRIDGE.06//Feito
 		 * 1. Comente a chamada dos demais metodos anteriores/posteriores a este.
 		 * 2. Descomente este para executar ele e analisar em separado.
 		 */
@@ -49,7 +49,7 @@ public class Aplicacao {
 		plataformaDefault.simularAterrisagem();
 		plataformaDefault.simularDecolagem();
 		/** 
-		 * TODO BRIDGE.05
+		 * TODO BRIDGE.05//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 
@@ -61,7 +61,7 @@ public class Aplicacao {
 		plataformaDefault.simularAterrisagem();
 		plataformaDefault.simularDecolagem();
 		/** 
-		 * TODO BRIDGE.05
+		 * TODO BRIDGE.05//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 
@@ -72,7 +72,7 @@ public class Aplicacao {
 		plataformaDefault.simularAterrisagem();
 		plataformaDefault.simularDecolagem();
 		/** 
-		 * TODO BRIDGE.05
+		 * TODO BRIDGE.05//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 
@@ -87,7 +87,7 @@ public class Aplicacao {
 		plataformaDestrutivel.simularDecolagem();
 		plataformaDestrutivel.simularDestruicao();
 		/** 
-		 * TODO BRIDGE.06
+		 * TODO BRIDGE.06//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 
@@ -99,7 +99,7 @@ public class Aplicacao {
 		plataformaDestrutivel.simularDecolagem();
 		plataformaDestrutivel.simularDestruicao();
 		/** 
-		 * TODO BRIDGE.06
+		 * TODO BRIDGE.06//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 
@@ -111,7 +111,7 @@ public class Aplicacao {
 		plataformaDestrutivel.simularDecolagem();
 		plataformaDestrutivel.simularDestruicao();
 		/** 
-		 * TODO BRIDGE.06
+		 * TODO BRIDGE.06//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 	}
@@ -121,18 +121,18 @@ public class Aplicacao {
 		FogueteBridge fogueteBridge = new FogueteAEB();
 		
 		/** 
-		 * TODO BRIDGE.07
+		 * TODO BRIDGE.07//Feito
 		 * 1.Implemente uma nova classe de asbtracao de uso de foguetes de nome PlataformaFogueteTrajetoria 
 		 * (veja seus metodos e como implementa-los no diagrama UML de classes fornecido neste projeto)
 		 * 2. Instancie a abstracao especifica, com new PlataformaFogueteTrajetoria(). 
 		 */
-		PlataformaFoguete plataformaTrajetoria= new PlataformaFogueteTrajetoria(fogueteBridge);
+		PlataformaFogueteTrajetoria plataformaTrajetoria= new PlataformaFogueteTrajetoria(fogueteBridge);
 		plataformaTrajetoria.simularDiagnostico();
 		plataformaTrajetoria.simularDiagnosticarFormatado();
-		plataformaTrajetoria.simularAterrisagem();
-		plataformaTrajetoria.simularDecolagem();
+		plataformaTrajetoria.simularAterrisagem(254355);
+		plataformaTrajetoria.simularDecolagem(24350);
 		/** 
-		 * TODO BRIDGE.07
+		 * TODO BRIDGE.07//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 
@@ -140,10 +140,10 @@ public class Aplicacao {
 		plataformaTrajetoria.setFoguete(fogueteBridge);
 		plataformaTrajetoria.simularDiagnostico();
 		plataformaTrajetoria.simularDiagnosticarFormatado();
-		plataformaTrajetoria.simularAterrisagem();
-		plataformaTrajetoria.simularDecolagem();
+		plataformaTrajetoria.simularAterrisagem(65730949);
+		plataformaTrajetoria.simularDecolagem(10974655);
 		/** 
-		 * TODO BRIDGE.07
+		 * TODO BRIDGE.07//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 
@@ -151,10 +151,10 @@ public class Aplicacao {
 		plataformaTrajetoria.setFoguete(fogueteBridge);
 		plataformaTrajetoria.simularDiagnostico();
 		plataformaTrajetoria.simularDiagnosticarFormatado();
-		plataformaTrajetoria.simularAterrisagem();
-		plataformaTrajetoria.simularDecolagem();
+		plataformaTrajetoria.simularAterrisagem(666544488);
+		plataformaTrajetoria.simularDecolagem(88898484);
 		/** 
-		 * TODO BRIDGE.07
+		 * TODO BRIDGE.07//Feito
 		 * 1. Verifique se as saidas na console estao como esperado para a implementacao de foguete selecionada
 		 */
 		

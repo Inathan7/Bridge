@@ -6,30 +6,30 @@ public class FogueteChina extends FogueteBridge {
 		
 	@Override
 	public void autoDestruir() {
-		System.out.println("中国火箭毁了");
+		System.out.println("Zhōngguó hù tào bèi huǐ");
 		this.destruido = true;
 	}
 
 	@Override
 	public void desacoplar() {
-		System.out.println("中国火箭解耦");
+		System.out.println("Zhōngguó lǚbó jiě ǒu");
 		
 	}
 
 	@Override
 	public boolean checar() {
-		System.out.println("中国火箭被诊断");
+		System.out.println("Pénghuà zhōngguó zhěnduàn");
 		return !this.destruido;
 	}
 
 	@Override
 	public void decolar() {
-		System.out.println("中国火箭起飞");
+		System.out.println("Foquet China qǐfēi");
 	}
 
 	@Override
 	public void mudarTrajetoria(double angulo) {
-		System.out.println("中国火箭的变化轨迹：" + angulo);
+		System.out.println("Foquet zhōngguó gǎibiànle guǐjī：" + angulo);
 		
 	}
 
